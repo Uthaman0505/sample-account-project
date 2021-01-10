@@ -28,7 +28,6 @@ export const AccountListing = (props: any) => {
     loading,
     error,
   } = useGetAccountQuery()
-  console.log('AccountListing -> getAccount', getAccount)
 
  
   return (
